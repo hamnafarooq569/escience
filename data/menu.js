@@ -56,3 +56,6 @@ export const menuItems = [
     href: "#",
   },
 ];
+
+export const categories =
+  menuItems.find((item) => item.title === "Subjects")?.subItems || [];
