@@ -61,45 +61,15 @@ export default function Hero() {
         <div className="eschool-hero-images wow fadeInUp" data-wow-delay="0.3s">
           <div className="eschool-gradient-circle"></div>
 
-          <Image
-            src="/images/page-title/page-title-home2-1.jpg"
-            alt="Students studying"
-            width={430}
-            height={340}
-            className="eschool-img eschool-img-one"
-          />
+<div className="eschool-video-box">
+  <iframe
+    src="https://www.youtube.com/embed/OXWFZW-xY-Y?autoplay=1&mute=1&loop=1&playlist=OXWFZW-xY-Y&controls=1&rel=0&modestbranding=1&playsinline=1"
+    title="eScience Academy Intro Video"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowFullScreen
+  />
+</div>
 
-          <Image
-            src="/images/page-title/page-title-home2-2.jpg"
-            alt="Students writing"
-            width={360}
-            height={270}
-            className="eschool-img eschool-img-two"
-          />
-
-          <Image
-            src="/images/item/item-1.png"
-            alt=""
-            width={95}
-            height={95}
-            className="eschool-float-item eschool-item-one animate-cir45"
-          />
-
-          <Image
-            src="/images/item/item-2.png"
-            alt=""
-            width={85}
-            height={85}
-            className="eschool-float-item eschool-item-two animate-dot-anim-2"
-          />
-
-          <Image
-            src="/images/item/item-3.png"
-            alt=""
-            width={90}
-            height={90}
-            className="eschool-float-item eschool-item-three animate-dot-anim-3"
-          />
         </div>
       </div>
 

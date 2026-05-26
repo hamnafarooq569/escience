@@ -120,10 +120,10 @@ export default function Login() {
                     <i className="icon-arrow-top-right" />
                   </button>
                 </form>
-                <p className="fs-15 wow fadeInUp" data-wow-delay="0s">
+                {/* <p className="fs-15 wow fadeInUp" data-wow-delay="0s">
                   OR
-                </p>
-                <ul className="login-social">
+                </p> */}
+                {/* <ul className="login-social">
                   <li className="login-social-icon">
                     <a
                       href="#"
@@ -153,7 +153,7 @@ export default function Login() {
                       Apple
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

@@ -969,287 +969,44 @@
   }
 }
 
-/* eScience responsive header fix */
-@media (max-width: 1199px) {
-  #header_main {
-    .header-inner {
-      padding: 0 35px;
-    }
-
-    .navigation {
-      gap: 22px;
-
-      a,
-      li {
-        font-size: 14px;
-      }
-    }
-
-    .header-btn {
-      gap: 8px;
-
-      .tf-button-default {
-        padding-left: 18px;
-        padding-right: 18px;
-      }
-    }
-  }
-}
-
-@media (max-width: 991px) {
-  #header_main {
-    .header-inner {
-      padding: 0 22px;
-    }
-
-    .header-inner-wrap {
-      height: 76px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 15px;
-    }
-
-    .header-left {
-      position: static !important;
-      transform: none !important;
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      flex-grow: 0;
-    }
-
-    .header-right {
-      width: auto !important;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 14px;
-    }
-
-    .main-menu {
-      display: none !important;
-    }
-
-    .header-btn {
-      position: static !important;
-      transform: none !important;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .header-login {
-      display: none;
-    }
-
-    .header-register {
-      .tf-button-default {
-        height: 42px;
-        padding: 0 18px;
-        font-size: 14px;
-        border-radius: 6px;
-      }
-    }
-
-    #site-logo {
-      img {
-        width: 115px;
-        height: auto;
-      }
-    }
-
-    .mobile-button {
-      display: flex !important;
-      width: 24px;
-      height: 16px;
-      cursor: pointer;
-
-      &::before,
-      &::after {
-        height: 2px;
-        background-color: #070b35;
-      }
-
-      &::after {
-        width: 24px;
-      }
-    }
-  }
-}
-
-@media (max-width: 575px) {
-  #header_main {
-    .header-inner {
-      padding: 0 16px;
-    }
-
-    .header-inner-wrap {
-      height: 68px;
-    }
-
-    #site-logo {
-      img {
-        width: 98px;
-        height: auto;
-      }
-    }
-
-    .header-right {
-      gap: 10px;
-    }
-
-    .header-btn {
-      gap: 0;
-    }
-
-    .header-register {
-      .tf-button-default {
-        height: 38px;
-        padding: 0 14px;
-        font-size: 13px;
-      }
-    }
-
-    .header-login {
-      display: none !important;
-    }
-
-    .mobile-button {
-      width: 22px;
-      height: 15px;
-
-      &::after {
-        width: 22px;
-      }
-    }
-  }
-}
-
-@media (max-width: 390px) {
-  #header_main {
-    #site-logo {
-      img {
-        width: 90px;
-      }
-    }
-
-    .header-register {
-      .tf-button-default {
-        padding: 0 11px;
-        font-size: 12px;
-      }
-    }
-  }
-}
-
-@media (max-width: 991px) {
-  #header_main {
-    .header-inner {
-      padding: 0 16px;
-    }
-
-    .header-inner-wrap {
-      height: 76px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-    }
-
-    .header-left {
-      flex: 0 0 auto;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .header-right {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 10px;
-      width: auto !important;
-    }
-
-    .main-menu {
-      display: none !important;
-    }
-
-    .header-btn {
-      display: flex !important;
-      align-items: center;
-      gap: 8px;
-      position: static !important;
-      transform: none !important;
-    }
-
-    .header-login,
-    .header-register {
-      display: block !important;
-    }
-
-    .header-login .tf-button-default,
-    .header-register .tf-button-default {
-      height: 40px;
-      min-width: 78px;
-      padding: 0 14px;
-      font-size: 14px;
-      border-radius: 6px;
-      white-space: nowrap;
-    }
-
-    .mobile-button {
-      display: flex !important;
-      flex-shrink: 0;
-    }
-
-    #site-logo img {
-      width: 105px;
-      height: auto;
-    }
-  }
-}
-
-@media (max-width: 575px) {
-  #header_main {
-    .header-inner {
-      padding: 0 12px;
-    }
-
-    .header-inner-wrap {
-      height: 68px;
-      gap: 8px;
-    }
-
-    #site-logo img {
-      width: 90px;
-    }
-
-    .header-right {
-      gap: 6px;
-    }
-
-    .header-btn {
-      gap: 6px;
-    }
-
-    .header-login .tf-button-default,
-    .header-register .tf-button-default {
-      height: 36px;
-      min-width: auto;
-      padding: 0 10px;
-      font-size: 12px;
-    }
-  }
-}
-
 /* ================================
-   Responsive Header + Hero Fix
+   Final eScience Header + Hero Responsive
 ================================ */
 
-/* Large tablets / small laptops */
+.eschool-hero {
+  .eschool-video-box {
+    position: absolute;
+    left: 35px;
+    top: 0;
+    width: 620px;
+    height: 390px;
+    border: 7px solid #ffffff;
+    border-radius: 26px;
+    overflow: hidden;
+    background: #d8d8d8;
+    box-shadow: 0 22px 45px rgba(0, 0, 0, 0.14);
+    z-index: 3;
+
+    iframe {
+      width: 100%;
+      height: 140%;
+      border: 0;
+      display: block;
+      transform: scale(1.18);
+      transform-origin: center center;
+      pointer-events: none;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border: 0;
+    }
+  }
+}
+
 @media (max-width: 1199px) {
   #header_main {
     .header-inner {
@@ -1264,7 +1021,8 @@
         line-height: 76px;
       }
 
-      a {
+      a,
+      li {
         font-size: 15px;
       }
     }
@@ -1297,24 +1055,23 @@
       word-spacing: 3px;
     }
 
-    .eschool-img-one {
-      width: 380px;
-      height: 300px;
+    .eschool-video-box {
+      left: 10px;
+      width: 520px;
+      height: 340px;
     }
 
-    .eschool-img-two {
-      width: 320px;
-      height: 240px;
-      right: 20px;
+    .eschool-gradient-circle {
+      right: -55px;
+      top: 40px;
     }
   }
 }
 
-/* Tablet */
 @media (max-width: 991px) {
   #header_main {
     .header-inner {
-      padding: 0 18px;
+      padding: 0 16px;
     }
 
     .header-inner-wrap {
@@ -1423,27 +1180,24 @@
       max-width: 650px;
       height: 390px;
       margin: 0 auto;
+      overflow: visible;
+    }
+
+    .eschool-video-box {
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      width: 600px;
+      max-width: 100%;
+      height: 360px;
     }
 
     .eschool-gradient-circle {
-      right: 65px;
-      top: 80px;
-      width: 135px;
-      height: 135px;
-    }
-
-    .eschool-img-one {
-      left: 25px;
-      top: 0;
-      width: 390px;
-      height: 300px;
-    }
-
-    .eschool-img-two {
-      right: 25px;
-      bottom: 0;
-      width: 310px;
-      height: 230px;
+      right: -25px;
+      top: 45px;
+      width: 125px;
+      height: 125px;
+      z-index: 2;
     }
 
     .eschool-item-one {
@@ -1500,7 +1254,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 575px) {
   #header_main {
     .header-inner {
@@ -1557,34 +1310,22 @@
     }
 
     .eschool-hero-images {
-      height: 285px;
+      height: 245px;
       max-width: 360px;
     }
 
-    .eschool-gradient-circle {
-      right: 20px;
-      top: 58px;
-      width: 95px;
-      height: 95px;
-    }
-
-    .eschool-img {
+    .eschool-video-box {
+      width: 100%;
+      height: 225px;
       border-width: 5px;
       border-radius: 18px;
     }
 
-    .eschool-img-one {
-      left: 0;
-      top: 0;
-      width: 255px;
-      height: 205px;
-    }
-
-    .eschool-img-two {
-      right: 0;
-      bottom: 0;
-      width: 210px;
-      height: 155px;
+    .eschool-gradient-circle {
+      width: 90px;
+      height: 90px;
+      right: -28px;
+      top: 35px;
     }
 
     .eschool-float-item {
@@ -1621,7 +1362,6 @@
   }
 }
 
-/* Very small mobile */
 @media (max-width: 380px) {
   #header_main {
     #site-logo img {
@@ -1641,17 +1381,11 @@
     }
 
     .eschool-hero-images {
-      height: 255px;
+      height: 220px;
     }
 
-    .eschool-img-one {
-      width: 230px;
-      height: 185px;
-    }
-
-    .eschool-img-two {
-      width: 190px;
-      height: 140px;
+    .eschool-video-box {
+      height: 205px;
     }
   }
 }
