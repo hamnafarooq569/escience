@@ -11,9 +11,9 @@ export default function Register() {
               <div className="img-left wow fadeInLeft" data-wow-delay="0s">
                 <Image
                   className="ls-is-cached lazyloaded"
-                  data-src="/images/page-title/page-title-home2-2.jpg"
+                  data-src="/images/page-title/register.png"
                   alt=""
-                  src="/images/page-title/page-title-home2-2.jpg"
+                  src="/images/page-title/register.png"
                   width={592}
                   height={681}
                 />
@@ -22,12 +22,10 @@ export default function Register() {
                   data-wow-delay="0.1s"
                 >
                   <p>
-                    Happiness prosperous impression had conviction For every
-                    delay <br />
-                    in they
+                    Create your account and begin
                   </p>
-                  <p className="author">Ali Tufan</p>
-                  <p className="sub-author">Founder &amp; CEO</p>
+                  <p className="author">learning with trusted teachers,</p>
+                  <p className="sub-author">notes, videos, and guidance.</p>
                 </div>
               </div>
             </div>
@@ -135,7 +133,7 @@ export default function Register() {
                         required
                       />
                       <label className="tf-field-label fs-15" htmlFor="field4">
-                        Repoat Password
+                        Repeat Password
                       </label>
                     </fieldset>
                   </div>
@@ -148,40 +146,6 @@ export default function Register() {
                     <i className="icon-arrow-top-right" />
                   </button>
                 </form>
-                <p className="fs-15 wow fadeInUp" data-wow-delay="0s">
-                  OR
-                </p>
-                <ul className="login-social">
-                  <li className="login-social-icon">
-                    <a
-                      href="#"
-                      className="tf-btn wow fadeInUp"
-                      data-wow-delay="0s"
-                    >
-                      <i className="flaticon-facebook-1" /> Facebook
-                    </a>
-                  </li>
-                  <li className="login-social-icon">
-                    <a
-                      href="#"
-                      className="tf-btn wow fadeInUp"
-                      data-wow-delay="0.1s"
-                    >
-                      <i className="icon-google" />
-                      Google
-                    </a>
-                  </li>
-                  <li className="login-social-icon">
-                    <a
-                      href="#"
-                      className="tf-btn wow fadeInUp"
-                      data-wow-delay="0.2s"
-                    >
-                      <i className="icon-apple" />
-                      Apple
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

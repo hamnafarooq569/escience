@@ -48,7 +48,7 @@ export default function Header1() {
 
             <div className="header-btn flex gap-10">
               <div className="header-login">
-                <Link href={`#`} className="tf-button-default header-text">
+                <Link href={`/login`} className="tf-button-default header-text">
                   Log In
                 </Link>
               </div>

@@ -28,7 +28,6 @@ export default function HomePage1() {
     <>
       <div id="wrapper">
 
-        <Header1 />
         <Hero />
         <div className="main-content home-main-content">
           
@@ -49,7 +48,7 @@ export default function HomePage1() {
           <Brands />
           <Banner2 /> */}
         </div>
-        <Footer />
+
       </div>
     </>
   );

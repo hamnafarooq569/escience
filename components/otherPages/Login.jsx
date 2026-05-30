@@ -13,8 +13,8 @@ export default function Login() {
                   className="ls-is-cached lazyloaded"
                   data-src=""
                   alt=""
-                  src="/images/page-title/page-title-home2-1.jpg"
-                  width={591}
+                  src="/images/page-title/login.jpeg"
+                  width={491}
                   height={680}
                 />
                 <div
@@ -22,12 +22,10 @@ export default function Login() {
                   data-wow-delay="0.1s"
                 >
                   <p>
-                    Happiness prosperous impression had conviction For every
-                    delay <br />
-                    in they
+                    Start your learning journey with eScience Academy and build <br />
+                    confidence for every exam.
                   </p>
-                  <p className="author">Ali Tufan</p>
-                  <p className="sub-author">Founder &amp; CEO</p>
+                  <p className="author">O/A Level & MDCAT Preparation</p>
                 </div>
               </div>
             </div>

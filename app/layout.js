@@ -3,6 +3,9 @@ import { useEffect, useState } from "react";
 import "../public/scss/main.scss";
 import "swiper/css/effect-fade";
 
+import Header1 from "@/components/headers/Header1";
+import Footer from "@/components/footers/Footer";
+
 import { tabs } from "@/utlis/tabs";
 import { usePathname } from "next/navigation";
 import SearchModal from "@/components/modals/SearchModal";
@@ -129,13 +132,17 @@ export default function RootLayout({ children }) {
   }, [pathname]); // Runs every time the route changes
   return (
     <html lang="en">
-      <body className="counter-scroll">
-        <Context>{children}</Context>
+<body className="counter-scroll">
+  <Context>
+    <Header1 />
+    {children}
+    <Footer />
+  </Context>
 
-        <SearchModal />
-        <BackToTop />
-        <MobileMenu />
-      </body>
+  <SearchModal />
+  <BackToTop />
+  <MobileMenu />
+</body>
     </html>
   );
 }
