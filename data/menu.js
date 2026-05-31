@@ -53,7 +53,7 @@ export const menuItems = [
   },
   {
     title: "Career",
-    href: "#",
+    href: "/career",
   },
 ];
 
